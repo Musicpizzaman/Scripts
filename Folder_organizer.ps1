@@ -1,4 +1,4 @@
-$rootPath = "F:\Recovery" # The root path where your folders and files are located.
+$rootPath = "" # The root path where your folders and files are located. Insert directory in the quotes
 $duplicatesPath = Join-Path -Path $rootPath -ChildPath "Duplicates" # Path for duplicate files
 
 # Function to delete empty directories
